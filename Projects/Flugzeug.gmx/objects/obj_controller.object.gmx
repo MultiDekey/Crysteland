@@ -29,6 +29,7 @@
 global.crashed = false;
 global.canmove = true;
 //instance_create(x,y,obj_flugzeug_parent);
+//Test BLARGHL
 </string>
           </argument>
         </arguments>
