@@ -1,0 +1,13 @@
+global.dll_ohs_set_password = external_define("ohs.dll","ohs_set_password",dll_stdcall,ty_real,1,ty_string);
+global.dll_ohs_set_url = external_define("ohs.dll","ohs_set_url",dll_stdcall,ty_real,2,ty_string,ty_string);
+global.dll_ohs_set_table = external_define("ohs.dll","ohs_set_table",dll_stdcall,ty_real,1,ty_string);
+global.dll_ohs_get_status = external_define("ohs.dll","ohs_get_status",dll_stdcall,ty_real,0);
+global.dll_ohs_get_position = external_define("ohs.dll","ohs_get_position",dll_stdcall,ty_real,0);
+global.dll_ohs_table_clear = external_define("ohs.dll","ohs_table_clear",dll_stdcall,ty_real,0);
+global.dll_ohs_table_update = external_define("ohs.dll","ohs_table_update",dll_stdcall,ty_real,0);
+global.dll_ohs_table_get = external_define("ohs.dll","ohs_table_get",dll_stdcall,ty_string,2,ty_real,ty_real);
+global.dll_ohs_header_get = external_define("ohs.dll","ohs_header_get",dll_stdcall,ty_string,1,ty_real);
+global.dll_ohs_table_columns = external_define("ohs.dll","ohs_table_columns",dll_stdcall,ty_real,0);
+global.dll_ohs_table_rows = external_define("ohs.dll","ohs_table_rows",dll_stdcall,ty_real,0);
+global.dll_ohs_submit_add = external_define("ohs.dll","ohs_submit_add",dll_stdcall,ty_real,2,ty_real,ty_string);
+global.dll_ohs_submit_clear = external_define("ohs.dll","ohs_submit_clear",dll_stdcall,ty_real,0);
