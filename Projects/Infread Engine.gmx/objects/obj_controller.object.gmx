@@ -181,6 +181,50 @@ if global.info = true
         </arguments>
       </action>
     </event>
+    <event eventtype="9" enumb="106">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>cheat = get_string("Code hier eingeben","")
+
+switch(cheat)
+{
+//Funktionen
+case "R": room_restart(); break;
+case "next": room_goto_next(); break;
+case "last": room_goto_previous(); break;
+case "End": game_end() ; break;
+case "ENd": game_end() ; break;
+case "END": game_end() ; break;
+//Items cheaten
+case "Wall": instance_create(mouse_x,mouse_y,obj_wall); break;
+//Räume
+case "Test": room_goto (rm_test); break;
+}
+
+// _______________________________________
+// | Copyright Infread Cheat Engine      |
+// | © Crysteland - Infread Cheat        |
+// | Dont use Script without permission. |
+// ---------------------------------------
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="9" enumb="27">
       <action>
         <libid>1</libid>
