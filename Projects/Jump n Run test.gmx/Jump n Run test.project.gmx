@@ -44,6 +44,7 @@
     <sprite>sprites\spr_life</sprite>
     <sprite>sprites\spr_schuss</sprite>
     <sprite>sprites\spr_ammo</sprite>
+    <sprite>sprites\spr_heart</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tileset_test</background>
@@ -59,6 +60,7 @@
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_1</font>
+    <font>fonts\fnt_2</font>
   </fonts>
   <objects name="objects">
     <objects name="obstacles">

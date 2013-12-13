@@ -100,8 +100,10 @@ if global.hud = true
     draw_set_alpha(1);
     draw_sprite(spr_life,0,view_xview+5,view_yview+5);
     draw_text(view_xview+22,view_yview+5,global.leben_gross);
-    draw_sprite(spr_schuss,0,view_xview+5,view_yview+5);
-    draw_text(view_xview+22,view_yview+5,global.leben_gross);
+    draw_set_font(fnt_2);
+    draw_sprite(spr_schuss,0,view_xview+35,view_yview+5);
+    draw_text(view_xview+46,view_yview+0,global.ammo);
+    draw_set_font(fnt_1);
 }
 if global.pause = true
 {
