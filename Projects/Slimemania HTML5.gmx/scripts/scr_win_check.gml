@@ -1,6 +1,0 @@
-if (reel1rnd == 0 && reel2rnd == 0 && reel3rnd == 0){global.money += 10; i = instance_create(180,118,obj_score_up) with(i) score_up="10"; ini_open("game_stats.ini"); ini_write_real("Char","Money",global.money); ini_close(); return true;}
-if (reel1rnd == 1 && reel2rnd == 1 && reel3rnd == 1){global.money += 50; i = instance_create(180,118,obj_score_up) with(i) score_up="50"; ini_open("game_stats.ini"); ini_write_real("Char","Money",global.money); ini_close(); return true;}
-if (reel1rnd == 2 && reel2rnd == 2 && reel3rnd == 2){global.money += 200; i = instance_create(180,118,obj_score_up) with(i) score_up="200"; ini_open("game_stats.ini"); ini_write_real("Char","Money",global.money); ini_close(); return true;}
-if (reel1rnd == 1 && reel2rnd == 1 && reel3rnd != 1){global.money += 70; i = instance_create(180,118,obj_score_up) with(i) score_up="70"; ini_open("game_stats.ini"); ini_write_real("Char","Money",global.money); ini_close(); return true;}
-if (reel1rnd == 2 && reel2rnd == 2 && reel3rnd != 2){global.money += 100; i = instance_create(180,118,obj_score_up) with(i) score_up="100"; ini_open("game_stats.ini"); ini_write_real("Char","Money",global.money); ini_close(); return true;}
-return false;
